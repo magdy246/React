@@ -82,7 +82,7 @@ export default function Contact() {
               type="submit"
               className="xl:w-1/5 lg:w-1/3 md:w-1/3 w-3/4 text-white bg-green-400 hover:bg-green-400 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-green-400 dark:hover:bg-green-400 dark:focus:ring-green-400"
             >
-              Send Message :
+              Send Message
             </button>
           </form>
         </div>
