@@ -17,7 +17,7 @@ export default function Contact() {
           </div>
         </div>
         <div className="p-4 my-5 w-full">
-          <form className="flex flex-col justify-center w-1/2 mx-auto">
+          <div className="flex flex-col justify-center w-1/2 mx-auto">
             <div className="relative mb-6">
               <input
                 id="username"
@@ -80,11 +80,11 @@ export default function Contact() {
 
             <button
               type="submit"
-              className="xl:w-1/5 lg:w-1/3 md:w-1/3 w-3/4 text-white bg-green-400 hover:bg-green-400 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-green-400 dark:hover:bg-green-400 dark:focus:ring-green-400"
+              className="xl:w-1/5 lg:w-1/3 md:w-1/3 w-3/4 text-white bg-green-400 hover:bg-green-400 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-green-400 dark:hover:bg-green-600 dark:active:bg-green-400"
             >
               Send Message
             </button>
-          </form>
+          </div>
         </div>
       </div>
     </>
