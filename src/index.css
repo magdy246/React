@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --second-color: #1abc9c;
+    --main_color: #2c3e50;
+    --sec-color: #1a252f;
+}
+
+.navbar {
+    transition: padding-block 0.5s ease;
+}
+
+.navbar.move {
+    padding-block: 0;
+}
+
+.sec-color {
+    background-color: var(--sec-color);
+}
+
+.sec-color-text {
+    color: var(--sec-color);
+}
+
+.second-color {
+    background-color: var(--second-color);
+}
+
+.second-color-text {
+    color: var(--second-color);
+}
+
+.main_color {
+    background-color: var(--main_color);
+}
+
+.hov {
+    transition: 0.5s all;
+}
+
+.hov:hover {
+    background-color: var(--second-color);
+}
+
+.active {
+    background-color: var(--second-color);
+}
+
+.border_color {
+    border-color: #2c3e50;
+}
+
+.line {
+    height: 4px;
+    width: 80px;
+}
+
+@media (min-width:900px) {
+    .__marg {
+        margin-inline: 10%;
+    }
+}
