@@ -1,0 +1,31 @@
+{
+    "Route":[
+        {
+            "src":"",
+            "dist":"Layout",
+            "children":[
+                {
+                    "src":"/",
+                    "dist":"Home",
+                    "index":"true"
+                },
+                {
+                    "src":"About",
+                    "dist":"About"
+                },
+                {
+                    "src":"Portfolio",
+                    "dist":"Portfolio"
+                },
+                {
+                    "src":"Contact",
+                    "dist":"Contact"
+                },
+                {
+                    "src":"*",
+                    "dist":"Error"
+                }
+            ]
+        }
+    ]
+}
