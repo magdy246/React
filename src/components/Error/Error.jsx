@@ -1,3 +1,4 @@
+import React from "react";
 import error from "./../../assets/images/error.png"
 export default function Error() {
   return (

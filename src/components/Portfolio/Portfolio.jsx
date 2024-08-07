@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React , { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar, faPlus } from "@fortawesome/free-solid-svg-icons";
 import port1 from "./../../assets/images/port1.png";

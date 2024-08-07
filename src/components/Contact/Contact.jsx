@@ -1,3 +1,4 @@
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 
@@ -21,13 +22,13 @@ export default function Contact() {
             <div className="relative mb-6">
               <input
                 id="username"
-                className="peer py-3 my-4 w-full rounded-xl border-t-white border-x-white focus:border-t-white focus:border-x-white focus:border-b-black focus:ring-0"
+                className="peer py-3 my-4 w-full rounded-xl border-2 border-t-white border-b-gray-500 border-x-white focus:border-t-white focus:border-x-white focus:border-b-black focus:ring-0 focus:outline-none"
                 type="text"
                 placeholder="user name"
               />
               <label
                 htmlFor="username"
-                className="-z-10 absolute left-1 bottom-6 translate-y-1/2 translate-x-2 transition-all duration-500 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:text-gray-500 peer-focus:-translate-y-12 peer-focus:text-green-500"
+                className="-z-10 absolute -left-2 bottom-6 translate-y-1/2 translate-x-2 transition-all duration-500 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:text-gray-500 peer-focus:-translate-y-12 peer-focus:text-green-500"
               >
                 user name :
               </label>
@@ -36,13 +37,13 @@ export default function Contact() {
             <div className="relative mb-6">
               <input
                 id="age"
-                className="peer py-3 my-4 w-full rounded-xl border-t-white border-x-white focus:border-t-white focus:border-x-white focus:border-b-black focus:ring-0"
+                className="peer py-3 my-4 w-full rounded-xl border-2 border-t-white border-b-gray-500 border-x-white focus:border-t-white focus:border-x-white focus:border-b-black focus:ring-0 focus:outline-none"
                 type="text"
                 placeholder="user age"
               />
               <label
                 htmlFor="age"
-                className="-z-10 absolute left-1 bottom-6 translate-y-1/2 translate-x-2 transition-all duration-500 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:text-gray-500 peer-focus:-translate-y-12 peer-focus:text-green-500"
+                className="-z-10 absolute -left-2 bottom-6 translate-y-1/2 translate-x-2 transition-all duration-500 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:text-gray-500 peer-focus:-translate-y-12 peer-focus:text-green-500"
               >
                 user age :
               </label>
@@ -51,13 +52,13 @@ export default function Contact() {
             <div className="relative mb-6">
               <input
                 id="email"
-                className="peer py-3 my-4 w-full rounded-xl border-t-white border-x-white focus:border-t-white focus:border-x-white focus:border-b-black focus:ring-0"
+                className="peer py-3 my-4 w-full rounded-xl border-2 border-t-white border-b-gray-500 border-x-white focus:border-t-white focus:border-x-white focus:border-b-black focus:ring-0 focus:outline-none"
                 type="email"
                 placeholder="user email"
               />
               <label
                 htmlFor="email"
-                className="-z-10 absolute left-1 bottom-6 translate-y-1/2 translate-x-2 transition-all duration-500 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:text-gray-500 peer-focus:-translate-y-12 peer-focus:text-green-500"
+                className="-z-10 absolute -left-2 bottom-6 translate-y-1/2 translate-x-2 transition-all duration-500 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:text-gray-500 peer-focus:-translate-y-12 peer-focus:text-green-500"
               >
                 user email :
               </label>
@@ -66,13 +67,13 @@ export default function Contact() {
             <div className="relative mb-6">
               <input
                 id="password"
-                className="peer py-3 my-4 w-full rounded-xl border-t-white border-x-white focus:border-t-white focus:border-x-white focus:border-b-black focus:ring-0"
+                className="peer py-3 my-4 w-full rounded-xl border-2 border-t-white border-b-gray-500 border-x-white focus:border-t-white focus:border-x-white focus:border-b-black focus:ring-0 focus:outline-none"
                 type="password"
                 placeholder="user password"
               />
               <label
                 htmlFor="password"
-                className="-z-10 absolute left-1 bottom-6 translate-y-1/2 translate-x-2 transition-all duration-500 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:text-gray-500 peer-focus:-translate-y-12 peer-focus:text-green-500"
+                className="-z-10 absolute -left-2 bottom-6 translate-y-1/2 translate-x-2 transition-all duration-500 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:text-gray-500 peer-focus:-translate-y-12 peer-focus:text-green-500"
               >
                 user password :
               </label>
