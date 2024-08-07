@@ -10,7 +10,7 @@ import Error from "./components/Error/Error";
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "",
       element: <Layout />,
       children: [
         { index: true, element: <Home /> },
@@ -23,7 +23,9 @@ function App() {
   ]);
 
   return (
-    <RouterProvider router={router} />
+    <RouterProvider router={router}>
+      <Layout />
+    </RouterProvider>
   );
 }
 
