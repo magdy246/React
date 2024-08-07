@@ -1,25 +1,29 @@
 import "./App.css";
-import Layout from "./componant/Layout/Layout";
-import { createBrowserRouter, RouterProvider } from "react-router-dom"
-import Home from "./componant/Home/Home";
-import About from "./componant/About/About";
-import Portfolio from "./componant/Portfolio/Portfolio";
-import Contact from "./componant/Contact/Contact";
-import Error from "./componant/Error/Error";
+import Layout from "./components/Layout/Layout";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Home from "./components/Home/Home";
+import About from "./components/About/About";
+import Portfolio from "./components/Portfolio/Portfolio";
+import Contact from "./components/Contact/Contact";
+import Error from "./components/Error/Error";
+
 function App() {
-  let Route = createBrowserRouter([{
-    path:"",element:<Layout/>, children:[
-        {index:true, element:<Home/>},
-        {path:"About", element:<About/>},
-        {path:"Portfolio", element:<Portfolio/>},
-        {path:"Contact", element:<Contact/>},
-        {path:"*", element:<Error/>},
-    ]
-}])
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Layout />,
+      children: [
+        { index: true, element: <Home /> },
+        { path: "about", element: <About /> },
+        { path: "portfolio", element: <Portfolio /> },
+        { path: "contact", element: <Contact /> },
+        { path: "*", element: <Error /> },
+      ],
+    },
+  ]);
+
   return (
-    <>
-    <RouterProvider router={Route}></RouterProvider>
-    </>
+    <RouterProvider router={router} />
   );
 }
 
