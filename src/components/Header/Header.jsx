@@ -73,7 +73,7 @@ export default function Header() {
               <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 border_color main_color">
                 <li>
                   <NavLink
-                    to="About"
+                    to="about"
                     className="md:w-full w-fit block hov py-1 px-3 text-gray-900 rounded dark:text-white"
                     aria-current="page"
                   >
@@ -82,7 +82,7 @@ export default function Header() {
                 </li>
                 <li>
                   <NavLink
-                    to="Portfolio"
+                    to="portfolio"
                     className="md:w-full w-fit block hov py-1 px-3 text-gray-900 rounded md:border-0 dark:text-white"
                   >
                     PORTFOLIO
@@ -90,7 +90,7 @@ export default function Header() {
                 </li>
                 <li>
                   <NavLink
-                    to="Contact"
+                    to="contact"
                     className="md:w-full w-fit block hov py-1 px-3 text-gray-900 rounded md:border-0 dark:text-white"
                   >
                     CONTACT
